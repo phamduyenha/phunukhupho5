@@ -1,0 +1,99 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .Container{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 1400px;
+    margin: 0 auto;
+    }
+    header .banner{
+    height: 100px;
+    width: 800px;
+    background-image:url(./image/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+    header nav{
+    background-color: rgb(47, 0, 255);
+    padding: 0;
+    width: 56.2%;
+    display: flex;
+    }
+    header nav ul{
+    display: flex;
+    float: left;
+    list-style-type: none;
+    }
+    header nav ul li{
+    padding: 10px;
+    text-align: center;
+    width: 120px;
+    }
+    header nav ul li a{
+    text-decoration: none;
+    color:rgb(0, 234, 255);
+    display: block;
+    }
+    header nav ul li:hover{
+    background-color: rgb(10, 213, 10);
+    }
+    main{
+    background-color: white;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    }
+    main .title{
+    width:787px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: rgb(17, 223, 212);
+    border-radius: 10px;
+    color: white;
+    }
+    main .left{
+    text-align: center;
+    flex-basis: 70%;
+    }
+    .content{
+    width:800px;
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    }
+    main .right{
+    text-align: center;
+    flex-basis: 30%;
+    }
+    .gioithieu{
+    width:800px;
+    margin-top: 10px;
+    text-align: left;
+    border-radius: 10px;
+    padding: 10px;
+    }
+
+    footer{
+    display: block;
+    margin-top: 20px;
+    background-color: rgb(0, 234, 255);
+    padding: 10px;
+    color: white;
+    align-items: center;
+    width: 787px;
+    }
+    footer h3{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    }
+    footer .infor p{
+    width:787px;    
+    margin-left: 20px;
+    padding: 5px;
+    color: green;
+    }
